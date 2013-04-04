@@ -16,6 +16,15 @@ namespace EulerOne
 
         static int SolveEuler1()
         {
+            /* Comments from Keith 4/4/13
+             * 
+             * It looks like we're on our way to a modularized solution; however, let's see if we can extract
+             * a method that takes a prompt and continues to ask for input until the user gives a response that 
+             * is satisfactory or the player inputs something that indicates they want to quit.
+             * 
+             * Also, the program is broken.  We need references to the compiled libraries.
+             */
+
             //Find the sum of all the multiples of 3 or 5 below 1000.
 
             int sum = 0;

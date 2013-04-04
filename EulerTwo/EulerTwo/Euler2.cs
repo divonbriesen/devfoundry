@@ -15,6 +15,11 @@ namespace EulerTwo
 
         static long SolveEuler2()
         {
+            /* Comments from Keith 4/4/13
+            * 
+            * Still need to be changed to take input and refactored.
+            */
+
             // By considering the terms in the Fibonacci sequence whose values 
             // do not exceed four million, find the sum of the even-valued terms.
             long sum = 0;
